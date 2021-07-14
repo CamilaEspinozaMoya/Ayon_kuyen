@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  line-height: 5;
+  color: #11bec2;
+}
+
+h3 {
+  line-height: 2;
+  text-align: center;
+}
+
+#logo {
+  width: 90px;
+}
+
+.producto {
+  width: 250px;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+}
+
+.producto:hover {
+  width: 300px;
+}
+
+a {
+  color: #11bec2;
+}
+
+.padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: 10px, 20px;
+          transform: 10px, 20px;
+}
+
+.ic {
+  width: 80px;
+  padding: 10px;
+}
+
+#home {
+  width: 500px;
+}
+
+.bg-light {
+  background-color: #055160 !important;
+}
+
+.card {
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */

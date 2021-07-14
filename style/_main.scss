@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-prinario: #11bec2;
+
+h1 {
+    text-align: center;
+    line-height: 5;
+    color: $color-prinario;
+}
+
+h3{
+    line-height: 2;
+    text-align: center;
+}
+
+.producto {
+    width: 250px;
+    transition: height 2s;
+}
+
+.producto:hover {
+    width: 260px;
+}
+
+a{
+    color: $color-prinario; 
+}
+
+.padre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo {
+    display: flex;
+    flex-direction: column;
+    transform: (10px, 20px);
+}
+
+.card {
+    width: 40%;
+    
+}
+.card2 {
+    width: 40%;
+    
+}
