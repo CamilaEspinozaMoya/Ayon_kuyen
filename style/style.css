@@ -7,17 +7,17 @@
 
 h1 {
   text-align: center;
-  line-height: 5;
+  line-height: 2;
   color: #11bec2;
 }
 
 h3 {
-  line-height: 2;
+  line-height: 1;
   text-align: center;
 }
 
 #logo {
-  width: 90px;
+  width: 150px;
 }
 
 .producto {
@@ -44,10 +44,6 @@ a {
 
 .bg-light {
   background-color: #055160 !important;
-}
-
-.card {
-  width: 40%;
 }
 
 .container {
