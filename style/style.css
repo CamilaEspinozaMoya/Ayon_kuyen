@@ -22,44 +22,20 @@ h3 {
 
 .producto {
   width: 250px;
-  -webkit-transition: height 2s;
-  transition: height 2s;
-}
-
-.producto:hover {
-  width: 300px;
 }
 
 a {
   color: #11bec2;
 }
 
-.padre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.nav-link{
+  color: #ffff !important;
 }
 
-.hijo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-transform: 10px, 20px;
-          transform: 10px, 20px;
-}
 
 .ic {
   width: 80px;
-  padding: 10px;
+  padding: 8px;
 }
 
 #home {
@@ -97,6 +73,15 @@ a {
 .hero__img {
   width: 32%;
   align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: 10px, 20px;
+          transform: 10px, 20px;
 }
 
 .hero p {
@@ -112,8 +97,10 @@ a {
 }
 
 footer{
-  width: 200px;
   background-color: #055160 !important;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
 
 @media (max-width: 966px) {
@@ -129,6 +116,7 @@ footer{
   }
   .hero__img {
     margin-top: 1rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
