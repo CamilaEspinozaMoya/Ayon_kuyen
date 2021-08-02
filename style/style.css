@@ -119,4 +119,21 @@ footer{
     text-align: center;
   }
 }
+
+@media (max-width: 360px) {
+  .row,
+  .nav {
+    flex-direction: column;
+  }
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+  .hero__img {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
