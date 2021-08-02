@@ -67,11 +67,12 @@ a {
 }
 
 .hero__text {
-  width: 62%;
+  width: 50%;
+  text-align: center;
 }
 
 .hero__img {
-  width: 32%;
+  width: 50%;
   align-self: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,6 +83,7 @@ a {
           flex-direction: column;
   -webkit-transform: 10px, 20px;
           transform: 10px, 20px;
+          text-align: center;
 }
 
 .hero p {
