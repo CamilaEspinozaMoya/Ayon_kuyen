@@ -154,7 +154,9 @@ footer{
   .hero__text,
   .hero__img,
   .primary-content,
-  .sidebar {
+  .sidebar 
+  .menuFoot
+  .footIc{
     width: 100%;
   }
   .hero__img {
