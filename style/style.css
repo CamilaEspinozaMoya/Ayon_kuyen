@@ -59,15 +59,14 @@ a {
 
 .hero {
   padding: 100px 0;
-
 }
 
 .hero__text {
-  width: 50%;
+  width: 40%;
 }
 
 .hero__img {
-  width: 50%;
+  width: 40%;
   align-self: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,6 +90,11 @@ a {
 
 .primary-content {
   width: 62%;
+}
+
+#aroma {
+  width: 40%;
+  text-align: center;
 }
 
 footer{
